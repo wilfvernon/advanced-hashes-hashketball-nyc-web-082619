@@ -5,10 +5,8 @@ def game_hash
   hash[:away] = {}
   hash[:home][:team_name] = "Brooklyn Nets"
   hash[:away][:team_name] = "Charlotte Hornets"
-<<<<<<< HEAD
   hash[:home][:colors] = ["Black", "White"]
   hash[:away][:colors] = ["Turquoise", "Purple"]
-
   hash[:home][:players] = [
     {:number => "0", :shoe_size => "16", :points => "22", :rebounds => "12",
     :assists => "12", :steals => "3", :blocks => "1", :slam_dunks => "1"}, 
@@ -35,8 +33,6 @@ def game_hash
     ]
   hash
 end
-<<<<<<< HEAD
-=======
 
 def num_points_scored(player)
   def game_hash
@@ -76,7 +72,6 @@ def num_points_scored(player)
   name_array = ["Alan Anderson", "Reggie Evans", "Brook Lopez", "Mason Plumlee", "Jason Terry", "Jeff Adrien", "Bismack Biyombo", "DeSagna Diop", "Ben Gordon", "Kemba Walker"]
   binding.pry
 end
->>>>>>> d281fe388013fbe1fd65e862ed089794732ac147
 
 def num_points_scored(player)
   def game_hash
